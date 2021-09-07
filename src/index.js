@@ -4,7 +4,6 @@ import './index.css';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import store from './redux/configureStore';
 import { fetchData } from './redux/covidData/covidData';
 
@@ -20,5 +19,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
-
-reportWebVitals();
