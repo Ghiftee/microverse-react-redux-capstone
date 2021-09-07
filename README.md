@@ -2,7 +2,7 @@
 
 # Metrics WebApp
 
-> This is a mobile web application that displays a list of metrics generated from the [Narrative API](https://covid19tracking.narrativa.com/index_en.html). This API provides data on COVID-19.
+> This is a mobile web application that displays a list of metrics generated from the [Narrativa API](https://covid19tracking.narrativa.com/index_en.html). This API provides data on COVID-19.
 
 ![screenshot](src/screenshots/metrics-app.png)
 
@@ -14,7 +14,7 @@
 - Install app dependencies.
 - Build file structure for app.
 - Create routes and navigation in app.
-- Display list of items gotten from [Narrative API](https://covid19tracking.narrativa.com/index_en.html).
+- Display list of items gotten from [Narrativa API](https://covid19tracking.narrativa.com/index_en.html).
 - Writes unit tests for pure functions.
 - Create integration tests using React Testing Library.
 - Style components to match design on [behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
