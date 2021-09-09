@@ -12,9 +12,9 @@ const Filter = (props) => {
   };
   return (
     <InputGroup className="mb-3">
-      <InputGroup.Prepend className="input-group-prepend">
+      <span className="input-group-prepend">
         <i className="input-group-text fa fa-search" />
-      </InputGroup.Prepend>
+      </span>
       <input type="text" onChange={filterValues} className="form-control no-shadow" />
     </InputGroup>
   );
