@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Col, InputGroup, Row } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
-import { countries, totalConfirmed } from '../redux/covidData/covidData';
+import { countries, totalConfirmed, ready } from '../redux/covidData/covidData';
 import World from './world.svg';
 
 const Filter = (props) => {
@@ -58,6 +58,7 @@ export default function Home() {
       </LinkContainer>
     ));
 
+  const loader = <div className="loader" />;
   return (
     <div className="pt-3 bg-pink2">
       <Row className="m-0">
@@ -86,7 +87,7 @@ export default function Home() {
             <Filter setFilter={setFilter} />
           </Col>
         </Row>
-        {countryComponents}
+        { useSelector(ready) ? countryComponents : loader }
       </Row>
     </div>
   );
