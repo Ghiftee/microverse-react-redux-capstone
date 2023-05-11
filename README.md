@@ -7,7 +7,6 @@
 ![screenshot](src/screenshots/metrics-app.png)
 
 ## Live demo
-- [Heroku](https://react-redux-metrics-app.herokuapp.com/)
 - [Netlify](https://tender-jepsen-8056f0.netlify.app/)
 
 ## Milestones completed:
